@@ -1,7 +1,10 @@
-# Task1 : Remote Control
+# Task1 : Remote Control Page For a Robot
 
 ## index.html 
 
 This is the html page that contain the remote control
 
-<img src="file:///C:/Users/Admin/Desktop/Remote_control.png" width=150" height="200">
+![Alt text](Remote_control.png)
+
+When a button is pressed, the name of the button will be stored in the database
+
