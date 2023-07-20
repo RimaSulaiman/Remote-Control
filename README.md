@@ -3,6 +3,9 @@
 There is two pages, the first page contain a remote control with 5 buttons (Forward, Left, Stop, Right and Backward) when one of these buttons is pressed, the name of the pressed button will be stored in the database (SQL database).
 Then the second page shows the name of the pressed button.
 
+![Alt text](Example.gif)
+
+
 ## index.html 
 
 This is the html page that contain the remote control
