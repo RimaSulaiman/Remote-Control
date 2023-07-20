@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remote Control</title>
+    </head>
+
+<body>
+
+
+<form action="t.php" method="post"> 
+    <div id="container">
+<input id="btn1" type="submit" class="b1" name="Forward" value="Forward">
+</div>
+<input id="btn2" type="submit" class="b2" name="Left" value="Left">
+<input id="btn3" type="submit" class="b3" name="Stop" value="Stop">
+<input id="btn4" type="submit" class="b4" name="Right" value="Right">
+<input id="btn5" type="submit" class="b5" name="Backward" value="Backward">
+
+</form>
+
+<style>
+    input {
+     font-size : 30px;
+     margin: 5px;
+     padding: 10px;
+background-color: rgba(133, 101, 181, 0.505);
+color:black;
+border-radius:15px;
+
+} 
+input.b1 {
+
+
+}
+input.b2 {
+ position: relative;
+left : -100px;
+top: -8px;
+
+} 
+input.b3 {
+
+ position: relative;
+left : -1px;   
+top: -60px;
+} 
+input.b4 {
+ position: relative;
+left : 108px;
+top: -120px;
+
+} 
+input.b5 {
+ position: relative;
+left : 5px;
+top: -115px;
+}
+
+#container 
+{
+ text-align:center
+}
+#btn2
+{
+ display:block;
+ margin:auto
+}
+#btn3
+{
+ display:block;
+ margin:auto
+}
+#btn4
+{
+ display:block;
+ margin:auto
+}
+#btn5
+{
+ display:block;
+ margin:auto
+}
+ </style>
+
+
+</body>
+
+
+
+</html>
